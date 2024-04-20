@@ -1,5 +1,6 @@
 package com.library.steps;
 
+
 import com.library.pages.DashBoardPage;
 import com.library.pages.LoginPage;
 import com.library.utility.BrowserUtil;
@@ -18,6 +19,9 @@ public class DashboardPageStepDefs {
 
     @Given("the {string} on the home page")
     public void the_on_the_home_page(String userType) {
+
+
+        BrowserUtil.waitFor(3);
         loginPage = new LoginPage();
         loginPage.login(userType);
 
@@ -33,6 +37,7 @@ public class DashboardPageStepDefs {
 
 
     }
+
 
 
 }
