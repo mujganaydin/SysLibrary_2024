@@ -20,7 +20,7 @@ public class LibraryAPI_Util {
 
 
         String email=System.getenv(ConfigurationReader.getProperty(userType+"_username"));
-        String password="libraryUser";
+        String password="libraryUser";//TODO get System env.
 
 
 

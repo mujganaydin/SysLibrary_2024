@@ -114,10 +114,6 @@ public class APITestStepDef {
         givenPart.contentType(contentType);
     }
 
-    @And("I create a random {string} as request body")
-    public void iCreateARandomAsRequestBody(String arg0) {
-    }
-
 
 //    @Given("Request Content Type header is {string}")
 //    public void request_content_type_header_is(String contentType) {
