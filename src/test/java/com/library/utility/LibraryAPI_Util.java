@@ -19,8 +19,8 @@ public class LibraryAPI_Util {
     public static String getToken(String userType){
 
 
-        String email=System.getenv(ConfigurationReader.getProperty(userType+"_username"));
-        String password="libraryUser";//TODO get System env.
+        String email=System.getenv(ConfigurationReader.getProperty(userType+"_username"));//System.getenv-->provide us easily deployment
+        String password="libraryUser";
 
 
 
