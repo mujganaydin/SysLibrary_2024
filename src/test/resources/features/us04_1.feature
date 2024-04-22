@@ -4,3 +4,4 @@ Feature:
   Given:
   When:
   Then:
+  And:
